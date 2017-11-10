@@ -40,6 +40,7 @@ body {
 .pWrapper {
   margin-left: 21.25vw;
   margin-top: 4.17vw;
+  padding-bottom: 5vw;
 }
 
 .pWrapper p {
@@ -99,6 +100,7 @@ p:last-of-type {
 #a {
   color: #393939;
   margin-left: 21.2vw;
+  padding-top: 35.7vw;
   padding-bottom: 5vw;
 }
 
