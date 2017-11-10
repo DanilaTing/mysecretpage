@@ -12,6 +12,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.preloader {
+  width: 100vw;
+  height: 100vh;
+}
+
+.preloader p {
+  font-family: 'Helvetica';
+  font-size: 18px;
+  line-height: 19px;
+  letter-spacing: 0;
+}
+
 .title {
   transform: rotate(-90deg);
   position: fixed;
@@ -22,19 +34,20 @@ body {
 
 .pWrapper {
   margin-left: 306px;
-  margin-top: 59px;
+  margin-top: 60px;
 }
 
-p {
+.pWrapper p {
   max-width: 828px;
 }
 
-p+p {
+.pWrapper p+p {
   margin-top: 63px;
 }
 
 img {
   max-width: 412px;
+  filter: blur(10px);
 }
 
 p+img,.download {
@@ -85,6 +98,6 @@ p:last-of-type {
   padding-bottom: 20px;
 }
 
-/*.obj {
+#obj1, #obj2, #obj4, #obj6 {
   opacity: 0;
-}*/
+}
