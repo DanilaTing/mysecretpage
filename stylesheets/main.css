@@ -99,7 +99,7 @@ p:last-of-type {
   opacity: 0;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-device-width: 769px) {
   .title, .scroll, .slashes {
     display: none;
   }
