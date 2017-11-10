@@ -33,7 +33,7 @@ $(function () {
           $('#obj5').css({'filter': 'blur(10px)', 'transition': '3s'})
         }
 
-        if (scrollTop > 750) {
+        if (scrollTop > 650) {
           $('#obj6').css({'opacity': '1', 'transition': '2s'})
         } else {
           $('#obj6').css({'opacity': '0', 'transition': '2s'})
