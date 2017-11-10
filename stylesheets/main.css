@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -13,6 +13,12 @@ body {
   color: #393939;
   letter-spacing: 0.6px;
   -webkit-font-smoothing: antialiased;
+}
+
+.scroll {
+  position: absolute;
+  margin-left: 21.25vw;
+  margin-top: 13.8vw;
 }
 
 .title {
@@ -86,7 +92,7 @@ p:last-of-type {
 #a {
   color: #393939;
   margin-left: 21.2vw;
-  padding-bottom: 1.4vw;
+  padding-bottom: 5vw;
 }
 
 #obj1, #obj2, #obj4, #obj6 {

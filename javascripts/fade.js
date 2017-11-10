@@ -9,6 +9,12 @@ $(function () {
         var scrollTop = $(this).scrollTop()
         console.log(scrollTop)
 
+        if (scrollTop > 50) {
+          $('.scroll').css({'opacity': '0', 'transition': '2s'})
+        } else {
+          $('.scroll').css({'opacity': '1', 'transition': '2s'})
+        }
+
         if (scrollTop > 70) {
           $('#obj2').css({'opacity': '1', 'transition': '2s'})
         } else {
@@ -27,13 +33,13 @@ $(function () {
           $('#obj4').css({'opacity': '0', 'transition': '2s'})
         }
 
-        if (scrollTop > 370) {
+        if (scrollTop > 350) {
           $('#obj5').css({'filter': 'blur(0px)', 'transition': '3s'})
         } else {
           $('#obj5').css({'filter': 'blur(10px)', 'transition': '3s'})
         }
 
-        if (scrollTop > 650) {
+        if (scrollTop > 400) {
           $('#obj6').css({'opacity': '1', 'transition': '2s'})
         } else {
           $('#obj6').css({'opacity': '0', 'transition': '2s'})
