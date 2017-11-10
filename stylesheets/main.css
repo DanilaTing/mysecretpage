@@ -100,7 +100,6 @@ p:last-of-type {
 #a {
   color: #393939;
   margin-left: 21.2vw;
-  padding-top: 35.7vw;
   padding-bottom: 5vw;
 }
 
@@ -143,6 +142,7 @@ p:last-of-type {
     margin-left: 0vw;
     margin-top: 4.17vw;
     width: 86vw;
+    padding-bottom: 10vw;
   }
 
   .pWrapper p {
@@ -223,6 +223,7 @@ p:last-of-type {
     margin-left: 0vw;
     margin-top: 4.17vw;
     width: 86vw;
+    padding-bottom: 10vw;
   }
 
   .pWrapper p {
