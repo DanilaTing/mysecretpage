@@ -98,11 +98,11 @@ p:last-of-type {
   padding-bottom: 20px;
 }
 
-.fade#obj1, .fade#obj2, .fade#obj4, .fade#obj6 {
+#obj1, #obj2, #obj4, #obj6 {
   opacity: 0;
 }
 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-width: 500px) {
   body {
     font-size: 20px;
     line-height: 30px;
