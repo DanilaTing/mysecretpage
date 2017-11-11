@@ -298,8 +298,11 @@ p:last-of-type {
     display: none;
   }
 
-  .title, .scroll, .slashes {
-    display: none;
+  .title {
+    transform: rotate(0deg);
+    position: relative;
+    margin-left: -32vw;
+    padding-bottom: 0 !important;
   }
 
   .pWrapper {
