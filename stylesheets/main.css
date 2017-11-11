@@ -55,7 +55,6 @@ body {
 .download {
   position: absolute;
   margin-left: 35vw;
-  margin-top: 24vw;
 }
 
 .link {
@@ -64,16 +63,20 @@ body {
   margin-left: 30vw;
 }
 
+#l1{
+  margin-top: 40vw;
+}
+
 #l2 {
-  margin-top: 16vw;
+  margin-top: 1vw;
 }
 
 #l3 {
-  margin-top: 22vw;
+  margin-top: 20vw;
 }
 
 #l4 {
-  margin-top: 0vw;
+  margin-top: 1vw;
 }
 
 #l5 {
@@ -81,11 +84,11 @@ body {
 }
 
 #l6 {
-  margin-top: 0vw;
+  margin-top: 1vw;
 }
 
 #l7 {
-  margin-top: 0vw;
+  margin-top: 1vw;
 }
 
 #l8 {
@@ -101,6 +104,26 @@ body {
 .pWrapper p {
   width: 55.5vw;
   margin-top: 10vw;
+}
+
+#obj2::before {
+  content: "/ ";
+  margin-left: -1.8vw;
+}
+
+#obj4::before {
+  content: "// ";
+  margin-left: -2.8vw;
+}
+
+#obj5::before {
+  content: "/// ";
+  margin-left: -3.6vw;
+}
+
+#obj7::before {
+  content: "//// ";
+  margin-left: -4.5vw;
 }
 
 img {
