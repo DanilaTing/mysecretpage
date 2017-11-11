@@ -57,17 +57,30 @@ $(function() {
     $('#obj3').css({'filter': 'blur(10px)', 'transition': '0s'})
     $('#obj5').css({'filter': 'blur(0px)', 'transition': '0s'})
     $('#obj5').css({'filter': 'blur(10px)', 'transition': '0s'})
+  } else {
+    $('#obj3').css({'filter': 'blur(0px)', 'transition': '0s'})
+    $('#obj3').css({'filter': 'blur(10px)', 'transition': '0s'})
+    $('#obj5').css({'filter': 'blur(0px)', 'transition': '0s'})
+    $('#obj5').css({'filter': 'blur(10px)', 'transition': '0s'})
   }
 
   $('#obj1').css({'opacity': '1', 'transition': '2s'})
 
   $(window).on('scroll', function () {
-    $('.scroll').css({'opacity': '0', 'transition': '2s'})
-    fade('#obj2', 6);
-    blur('#obj3', 4);
+    if (scrollTop = 100) {
+      $('.scroll').css({'opacity': '0', 'transition': '2s'})
+    } else {
+      $('.scroll').css({'opacity': '1', 'transition': '2s'})
+    }
+    fade('#obj2', 3);
+    blur('#obj3', 2);
     fade('#obj4', 2);
     blur('#obj5', 1.6);
     fade('#obj6', 1.4);
+
+    if (mobile) {
+      blur('#obj3', 3);
+    }
   })
 })
 
