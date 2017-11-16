@@ -36,9 +36,9 @@ $(function() {
     console.log('b' + diff);
 
     if (scrollTop > diff) {
-     $(a).css({'filter': 'blur(0px)', 'transition': '0.5s'})
+     $(a).css({'-webkit-filter': 'blur(0px)', 'transition': '0.5s'})
     } else {
-      $(a).css({'filter': 'blur(10px)', 'transition': '0s'})
+      $(a).css({'-webkit-filter': 'blur(10px)', 'transition': '0s'})
     }
   }
 
@@ -68,16 +68,16 @@ $(function() {
   //   $('#obj7').css({'filter': 'blur(10px)', 'transition': '0s'})
   // }
 
-  $('#obj2').css({'filter': 'blur(10px)', 'transition': '0s'})
-  $('#obj3').css({'filter': 'blur(10px)', 'transition': '0s'})
-  $('#obj4').css({'filter': 'blur(10px)', 'transition': '0s'})
-  $('#obj5').css({'filter': 'blur(10px)', 'transition': '0s'})
-  $('#obj6').css({'filter': 'blur(10px)', 'transition': '0s'})
-  $('#obj7').css({'filter': 'blur(10px)', 'transition': '0s'})
-  $('#obj8').css({'filter': 'blur(5px)', 'transition': '0s'})
-  $('#obj9').css({'filter': 'blur(5px)', 'transition': '0s'})
-  $('#obj10').css({'filter': 'blur(5px)', 'transition': '0s'})
-  $('#obj11').css({'filter': 'blur(5px)', 'transition': '0s'})
+  $('#obj2').css({'-webkit-filter': 'blur(10px)', 'transition': '0s'})
+  $('#obj3').css({'-webkit-filter': 'blur(10px)', 'transition': '0s'})
+  $('#obj4').css({'-webkit-filter': 'blur(10px)', 'transition': '0s'})
+  $('#obj5').css({'-webkit-filter': 'blur(10px)', 'transition': '0s'})
+  $('#obj6').css({'-webkit-filter': 'blur(10px)', 'transition': '0s'})
+  $('#obj7').css({'-webkit-filter': 'blur(10px)', 'transition': '0s'})
+  $('#obj8').css({'-webkit-filter': 'blur(5px)', 'transition': '0s'})
+  $('#obj9').css({'-webkit-filter': 'blur(5px)', 'transition': '0s'})
+  $('#obj10').css({'-webkit-filter': 'blur(5px)', 'transition': '0s'})
+  $('#obj11').css({'-webkit-filter': 'blur(5px)', 'transition': '0s'})
 
   $('#obj1').css({'opacity': '1', 'transition': '2s'})
 
